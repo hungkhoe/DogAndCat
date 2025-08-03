@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AtlasCatDefault
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: d68ffe6db6b213742a95726b555ab571, type: 3}
+    - {fileID: 2800000, guid: ef8690ea2ff1f7741b80ab66b4915104, type: 3}
+    - {fileID: 2800000, guid: a964785e8ef640c46853f631fcd4c9c0, type: 3}
+    - {fileID: 2800000, guid: 0b24fe88cf322714cae9fe77a906a1ed, type: 3}
+    - {fileID: 2800000, guid: ccfd7d8e633a46a49900cab231e2030d, type: 3}
+    - {fileID: 2800000, guid: feaaa4db0adbd284abce5447df253147, type: 3}
+    - {fileID: 2800000, guid: 760e1b555812682478d0624c39afb57c, type: 3}
+    - {fileID: 2800000, guid: 87d3ed545408b004b9745834542d57f6, type: 3}
+    - {fileID: 2800000, guid: daaaf336b0abdd1488086681e1e9037c, type: 3}
+    - {fileID: 2800000, guid: e4840249665c207478f8b5d0b645e2c6, type: 3}
+    - {fileID: 2800000, guid: 88137cfed1489e742befef2c9b836cfd, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 87d3ed545408b004b9745834542d57f6, type: 3}
+  - {fileID: 21300000, guid: 760e1b555812682478d0624c39afb57c, type: 3}
+  - {fileID: 21300000, guid: daaaf336b0abdd1488086681e1e9037c, type: 3}
+  - {fileID: 21300000, guid: 0b24fe88cf322714cae9fe77a906a1ed, type: 3}
+  - {fileID: 21300000, guid: e4840249665c207478f8b5d0b645e2c6, type: 3}
+  - {fileID: 21300000, guid: ef8690ea2ff1f7741b80ab66b4915104, type: 3}
+  - {fileID: 21300000, guid: feaaa4db0adbd284abce5447df253147, type: 3}
+  - {fileID: 21300000, guid: d68ffe6db6b213742a95726b555ab571, type: 3}
+  - {fileID: 21300000, guid: a964785e8ef640c46853f631fcd4c9c0, type: 3}
+  - {fileID: 21300000, guid: ccfd7d8e633a46a49900cab231e2030d, type: 3}
+  - {fileID: 21300000, guid: 88137cfed1489e742befef2c9b836cfd, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Head Hurt
+  - Head Fun
+  - Head
+  - Hand Left
+  - Leg
+  - Cat default die
+  - Head Attack
+  - Body
+  - Group 12 copy 2
+  - Hand Right
+  - Tail
+  m_RenderDataMap: {}
+  m_Tag: AtlasCatDefault
+  m_IsVariant: 0

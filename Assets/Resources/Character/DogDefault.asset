@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2b35b4d1441e69408de5edb02428481, type: 3}
+  m_Name: DogDefault
+  m_EditorClassIdentifier: 
+  headNormal: {fileID: 21300000, guid: 28dd95fc8b59baa4b855325e3fb50910, type: 3}
+  headHurt: {fileID: 21300000, guid: ff3c0ddd303febe4d84084ca66733741, type: 3}
+  headFun: {fileID: 21300000, guid: 96c1ef623867be947a05579cec40429f, type: 3}
+  headAttack: {fileID: 21300000, guid: dadca28ee5fdcbb4297ec1cbb2b66aef, type: 3}
+  body: {fileID: 21300000, guid: 6535e3051aa901544a43c0dd8646c234, type: 3}
+  rightHand: {fileID: 21300000, guid: 1704aa2bfc16ad644a7945136a405324, type: 3}
+  leftHand: {fileID: 21300000, guid: 7557246faeeff7244896a9ddf14b8a32, type: 3}
+  leg: {fileID: 21300000, guid: 30bc61ff3f9ad3149a0a0c064f439fef, type: 3}
+  weapon: {fileID: 21300000, guid: a964785e8ef640c46853f631fcd4c9c0, type: 3}
+  dead: {fileID: 21300000, guid: bdffb65253de4d3479153455f613d92a, type: 3}
