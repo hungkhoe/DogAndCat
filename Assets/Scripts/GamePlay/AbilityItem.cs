@@ -8,20 +8,15 @@ namespace DogAndCat
 {
     public class AbilityItem : MonoBehaviour
     {
-        internal Button m_btnHealth;
-        internal Button m_btnBomb;
-        internal Button m_btnPower;
-        internal Button m_btnX2;
+        [SerializeField] internal Button m_btnHealth;
+        [SerializeField] internal Button m_btnBomb;
+        [SerializeField] internal Button m_btnPower;
+        [SerializeField] internal Button m_btnX2;
 
         private DogCatClass currentDogCat;
 
         private void Awake()
-        {
-            m_btnHealth = transform.FindDeepChilds<Button>("btnHealth");
-            m_btnBomb = transform.FindDeepChilds<Button>("btnBomb");
-            m_btnPower = transform.FindDeepChilds<Button>("btnPower");
-            m_btnX2 = transform.FindDeepChilds<Button>("btnX2");
-
+        {          
             m_btnHealth.SetAction(HealthButton);
             m_btnBomb.SetAction(BombButton);
             m_btnPower.SetAction(PowerButton);

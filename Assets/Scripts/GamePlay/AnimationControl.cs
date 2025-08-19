@@ -12,7 +12,8 @@ namespace DogAndCat
         private int hashNormal;
         private int hashAttack;
         private CreateCharacter spriteCharacter;
-        private SpriteRenderer head;
+
+        [SerializeField] private SpriteRenderer head;
 
         private void Awake()
         {
@@ -20,8 +21,7 @@ namespace DogAndCat
             hashFun = Animator.StringToHash("Miss");
             hashHurt = Animator.StringToHash("Hurt");
             hashNormal = Animator.StringToHash("Normal");
-            hashAttack = Animator.StringToHash("Attack");
-            head = transform.Find("Head").GetComponent<SpriteRenderer>();
+            hashAttack = Animator.StringToHash("Attack");      
         }
 
         public void PlayFun()

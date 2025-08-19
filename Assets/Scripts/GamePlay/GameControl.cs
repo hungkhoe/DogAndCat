@@ -315,7 +315,7 @@ namespace DogAndCat
             objectThrow.InputData(angle, aWind, force, turnPlayer, 20);
             yield return new WaitForSeconds(1f);
             objectThrow = Instantiate(weaponPlayer, _currentTransform.position, Quaternion.identity);
-            objectThrow.InputData(angle, 0, force, turnPlayer, 20);
+            objectThrow.InputData(angle, aWind, force, turnPlayer, 20);
             objectThrow.EndTurn += OnEndTurn;
             turnPlayer = _currentTurn;
         }

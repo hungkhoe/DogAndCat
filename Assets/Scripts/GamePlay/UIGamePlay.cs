@@ -17,16 +17,12 @@ namespace DogAndCat
         [SerializeField] private Image imgWinFace;
         [SerializeField] private Image imgLoseFace;
         [SerializeField] private Button btnHome;
-        internal AbilityItem abilityPlayer;
-        internal AbilityItem abilityEnemy;
+
+        [SerializeField] internal AbilityItem abilityPlayer;
+        [SerializeField] internal AbilityItem abilityEnemy;
 
         private void Awake()
-        {
-            abilityPlayer = transform.FindTransform("AbilityPlayer").gameObject
-                    .AddComponent<AbilityItem>();
-            abilityEnemy = transform.FindTransform("AbilityEnemy").gameObject
-                    .AddComponent<AbilityItem>();
-
+        {          
             btnHome.SetAction(HomeButton);
         }
 

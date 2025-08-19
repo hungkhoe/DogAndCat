@@ -42,14 +42,14 @@ namespace DogAndCat
             btnDog.SetAction(()=> ChooseDogOrCatButton(2));
             btnBack.SetAction(() => Fading(uiSelectForm, uiSelectCharacter));
             btnFind.SetAction(FindButton);
-            btnCat1.SetAction(() => ChooseFormDogOrCat(cat2, cat1, 1, 1));
-            btnCat2.SetAction(() => ChooseFormDogOrCat(cat1, cat2, 1, 2));
-            btnDog1.SetAction(() => ChooseFormDogOrCat(dog2, dog1, 2, 1));
-            btnDog2.SetAction(() => ChooseFormDogOrCat(dog1, dog2, 2, 2));
+            btnCat1.SetAction(() => ChooseFormDogOrCat(cat2, cat1, 1, 0));
+            btnCat2.SetAction(() => ChooseFormDogOrCat(cat1, cat2, 1, 1));
+            btnDog1.SetAction(() => ChooseFormDogOrCat(dog2, dog1, 2, 0));
+            btnDog2.SetAction(() => ChooseFormDogOrCat(dog1, dog2, 2, 1));
             currentCat = cat1;
             currentDog = dog1;
             userVersusInfo.playerInfo.form = 1;
-            userVersusInfo.playerInfo.idAnimal = 1;
+            userVersusInfo.playerInfo.idAnimal = 0;
         }
 
         #region Choose Dog Cat

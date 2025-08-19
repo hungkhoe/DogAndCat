@@ -28,12 +28,12 @@ namespace DogAndCat
         {
             if (user.playerInfo.form == 1)
             {
-                imgPlayer.sprite = catSprArr[user.playerInfo.idAnimal - 1];
+                imgPlayer.sprite = catSprArr[user.playerInfo.idAnimal];
                 imgEnemy.sprite = dogSprArr[user.playerInfo.idAnimal];
             }
             else
             {
-                imgPlayer.sprite = dogSprArr[user.playerInfo.idAnimal - 1];
+                imgPlayer.sprite = dogSprArr[user.playerInfo.idAnimal];
                 imgEnemy.sprite = catSprArr[user.playerInfo.idAnimal];
             }
 
